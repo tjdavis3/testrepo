@@ -7,3 +7,5 @@ Making a change with updated config
 Deleting draft to see if new one is created.
 
 final releaser test
+
+test PR and merge
