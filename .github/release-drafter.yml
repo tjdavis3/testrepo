@@ -2,6 +2,6 @@ name-template: '$NEXT_PATCH_VERSION '
 tag-template: '$NEXT_PATCH_VERSION'
 change-template: '- $TITLE (#$NUMBER)'
 template: |
-  ## What's Changed
+  ## What's coming
 
   $CHANGES
