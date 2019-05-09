@@ -1,0 +1,8 @@
+kind/feature: 
+  - 'feature/*'
+  - 'feat/*'
+kind/bug: 
+  - fix/*
+  - bug/*
+kind/chore:
+  - chore/*
