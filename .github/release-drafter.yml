@@ -1,4 +1,8 @@
+replacers:
+  - search: '/^\w+ ?[\(\w\)]?: (.*)$/g'
+    replace: '$1'
+change-template: '- $TITLE (#$NUMBER)'
 template: |
-  ## What's coming
+  ## What's Changed
 
   $CHANGES
