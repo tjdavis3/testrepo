@@ -1,0 +1,46 @@
+enable:
+  issues: false
+  prs: true
+
+labels:
+  'kind/bug'
+    include:
+      - '^fix\b'
+      - '^fixes\b'
+    exclude: []
+  'kind/feature'
+    include:
+      - '^feat\b'
+    exclude: []
+  'kind/performance'
+    include:
+      - '^perf\b'
+    exclude: []
+  'kind/build'
+    include:
+      - '^build\b'
+    exclude: []
+  'kind/ci'
+    include:
+      - '^ci\b'
+    exclude: []
+  'kind/chore'
+    include:
+      - '^chore\b'
+    exclude: []
+  'kind/refactor'
+    include:
+      - '^refactor\b'
+    exclude: []
+  'kind/style'
+    include:
+      - '^style\b'
+    exclude: []
+  'kind/docs'
+    include:
+      - '^docs\b'
+    exclude: []
+  'kind/test'
+    include:
+      - '^test\b'
+    exclude: []
