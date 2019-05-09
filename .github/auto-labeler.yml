@@ -3,44 +3,44 @@ enable:
   prs: true
 
 labels:
-  'kind/bug'
+  'kind/bug':
     include:
       - '^fix\b'
       - '^fixes\b'
     exclude: []
-  'kind/feature'
+  'kind/feature':
     include:
       - '^feat\b'
     exclude: []
-  'kind/performance'
+  'kind/performance':
     include:
       - '^perf\b'
     exclude: []
-  'kind/build'
+  'kind/build':
     include:
       - '^build\b'
     exclude: []
-  'kind/ci'
+  'kind/ci':
     include:
       - '^ci\b'
     exclude: []
-  'kind/chore'
+  'kind/chore':
     include:
       - '^chore\b'
     exclude: []
-  'kind/refactor'
+  'kind/refactor':
     include:
       - '^refactor\b'
     exclude: []
-  'kind/style'
+  'kind/style':
     include:
       - '^style\b'
     exclude: []
-  'kind/docs'
+  'kind/docs':
     include:
       - '^docs\b'
     exclude: []
-  'kind/test'
+  'kind/test':
     include:
       - '^test\b'
     exclude: []
