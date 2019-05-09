@@ -3,6 +3,6 @@ replacers:
     replace: '$1'
 change-template: '- $TITLE (#$NUMBER)...'
 template: |
-  ## What's Changed
+  ## What's Changed since $PREVIOUS_TAG
 
   $CHANGES
