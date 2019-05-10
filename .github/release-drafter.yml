@@ -1,3 +1,18 @@
+categories:
+  - title: 'Features'
+    label: 'kind/feature'
+  - title: 'Bug Fixes'
+    label: 'kind/bug'
+  - title: 'Maintenance'
+    label: 'kind/chore'
+  - title: 'Performance Improvements'
+    label: 'kind/performance'
+exclude-labels:
+  - 'kind/test'
+  - 'kind/ci'
+  - 'kind/build'
+  - 'kind/refactor'
+  - 'kind/style'
 replacers:
   - search: '/\w+ ?[\(\w\)]*: (.*)/g'
     replace: '$1'
