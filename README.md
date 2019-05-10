@@ -19,5 +19,3 @@ Now has auto-labeller.  Will see if it works.
 
 testing
 test
-full test
-rtesting ci
