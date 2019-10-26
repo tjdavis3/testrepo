@@ -9,7 +9,7 @@ Deleting draft to see if new one is created.
 
 
 test PR and merge
-suks this isn't working right
+sucks this isn't working right
 is it behind
 
 test pr-triage
