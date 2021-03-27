@@ -42,3 +42,4 @@
 
         - name: Run
           run: ./testrepo
+          if: ${{ steps.release.outputs.release_created }}
