@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/tjdavis3/testrepo/compare/v1.0.1...v1.0.2) (2021-03-27)
+
+
+### Bug Fixes
+
+* Remove release drafter ([33d31d8](https://www.github.com/tjdavis3/testrepo/commit/33d31d81b91199a74e4b6cdb88ed67da6e5b7525))
+
 ### [1.0.1](https://www.github.com/tjdavis3/testrepo/compare/v1.0.0...v1.0.1) (2021-03-27)
 
 
