@@ -14,7 +14,7 @@
             release-type: simple
             package-name: repobot
         - uses: actions/checkout@v2
-          if: ${{ steps.release.outputs.release_created }}
+          #if: ${{ steps.release.outputs.release_created }}
         - name: Set up Go 1.x
           uses: actions/setup-go@v2
           with:
