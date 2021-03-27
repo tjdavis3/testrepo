@@ -23,7 +23,6 @@ jobs:
 
     - name: Get dependencies
       run: |
-        cd backend
         go get -v -t -d ./...
         if [ -f Gopkg.toml ]; then
             curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
@@ -39,4 +38,5 @@ jobs:
       run: go build -ldflags '-X main.version='$VERSION -v -o testrepo  ./...
 
     - name: Run
+      if: startsWith( github.ref, 'refs/tags')
       run: ./testrepo
