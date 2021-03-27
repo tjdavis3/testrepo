@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.0.0](https://www.github.com/tjdavis3/testrepo/compare/v1.0.2...v2.0.0) (2021-03-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* Test auto build
+
+### Features
+
+* Run the built code ([2753ee3](https://www.github.com/tjdavis3/testrepo/commit/2753ee33c9263fe04087ed5c587085b8f41cae41))
+* Show the version in the test file ([535f25c](https://www.github.com/tjdavis3/testrepo/commit/535f25c219dd8ee1fb1b742685b3fd25a4537c36))
+* Test auto build ([f2b0fd7](https://www.github.com/tjdavis3/testrepo/commit/f2b0fd7b4e51724091ccc3009040d0b6144931c6))
+
+
+### Bug Fixes
+
+* Add the ID to the release action ([5e52ae6](https://www.github.com/tjdavis3/testrepo/commit/5e52ae69ce5a2aae5d843db1ff8f3764eb754a11))
+* Show tag_name ([b91c9e1](https://www.github.com/tjdavis3/testrepo/commit/b91c9e1bd758f67a5fde1fdcd6dc2b2d4b8413d5))
+
 ### [1.0.2](https://www.github.com/tjdavis3/testrepo/compare/v1.0.1...v1.0.2) (2021-03-27)
 
 
