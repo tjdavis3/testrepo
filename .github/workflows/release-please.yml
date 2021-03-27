@@ -27,14 +27,14 @@
             VERSION=`cat version.txt`
           if: ${{ steps.release.outputs.release_created }}
 
-        - name: Get dependencies
-          run: |
-            go get -v -t -d ./...
-            if [ -f Gopkg.toml ]; then
-              curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
-              dep ensure
-            fi
-          if: ${{ steps.release.outputs.release_created }}
+ #       - name: Get dependencies
+ #         run: |
+ #           go get -v -t -d ./...
+ #           if [ -f Gopkg.toml ]; then
+ #             curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+ #             dep ensure
+ #           fi
+ #         if: ${{ steps.release.outputs.release_created }}
 
         - name: Build
           run: go build -ldflags '-X "main.version=$VERSION"' -v ./...
