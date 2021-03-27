@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.1.1](https://www.github.com/tjdavis3/testrepo/compare/v2.1.0...v2.1.1) (2021-03-27)
+
+
+### Bug Fixes
+
+* Change to trigger on release ([c0618fa](https://www.github.com/tjdavis3/testrepo/commit/c0618faca8d886554b1c090e38ac97e6bf824010))
+
 ## [2.1.0](https://www.github.com/tjdavis3/testrepo/compare/v2.0.6...v2.1.0) (2021-03-27)
 
 
