@@ -36,3 +36,5 @@ Now has auto-labeller.  Will see if it works.
 )
 
 Adding release-please testing
+
+docs changes don't impact the notes.  We'll add a fix
