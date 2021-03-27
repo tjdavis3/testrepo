@@ -14,7 +14,7 @@
             release-type: simple
             package-name: repobot
         - uses: actions/checkout@v2
-          #if: ${{ steps.release.outputs.release_created }}
+          if: ${{ steps.release.outputs.release_created }}
         - name: Set up Go 1.x
           uses: actions/setup-go@v2
           with:
@@ -22,9 +22,11 @@
           id: go
           if: ${{ steps.release.outputs.release_created }}
 
-        - name: echo output
+        - name: Determine version
           run: | 
-            cat version.txt
+            VERSION=`cat version.txt`
+          if: ${{ steps.release.outputs.release_created }}
+
         - name: Get dependencies
           run: |
             go get -v -t -d ./...
@@ -35,5 +37,5 @@
           if: ${{ steps.release.outputs.release_created }}
 
         - name: Build
-          run: go build -v ./...
+          run: go build -ldflags '-X "main.version=$VERSION"' -v ./...
           if: ${{ steps.release.outputs.release_created }}
