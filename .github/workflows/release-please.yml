@@ -39,3 +39,6 @@
         - name: Build
           run: go build -ldflags '-X "main.version=$VERSION"' -v ./...
           if: ${{ steps.release.outputs.release_created }}
+
+        - name: Run
+          run: ./testrepo
