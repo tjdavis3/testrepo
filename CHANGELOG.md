@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.2](https://www.github.com/tjdavis3/testrepo/compare/v2.0.1...v2.0.2) (2021-03-27)
+
+
+### Bug Fixes
+
+* make package a mod ([dff408d](https://www.github.com/tjdavis3/testrepo/commit/dff408d39f9af1816435e7f94306e6e6036c02ed))
+
 ### [2.0.1](https://www.github.com/tjdavis3/testrepo/compare/v2.0.0...v2.0.1) (2021-03-27)
 
 
