@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/tjdavis3/testrepo/compare/v1.0.0...v1.0.1) (2021-03-27)
+
+
+### Bug Fixes
+
+* Add a note to generate a release pr ([110e504](https://www.github.com/tjdavis3/testrepo/commit/110e504d0517d0a94ada53767c6406d965eeb19f))
+* Test modifications to PR notes ([2183761](https://www.github.com/tjdavis3/testrepo/commit/2183761b8deaff1b5d8c75fa135a6bee645da0c7))
+
 ## [1.0.0](https://www.github.com/tjdavis3/testrepo/compare/0.1.1...v1.0.0) (2021-03-27)
 
 
