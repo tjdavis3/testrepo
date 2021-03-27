@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.1](https://www.github.com/tjdavis3/testrepo/compare/v2.0.0...v2.0.1) (2021-03-27)
+
+
+### Bug Fixes
+
+* Remove depency build ([d841797](https://www.github.com/tjdavis3/testrepo/commit/d8417970e4a214bcca88139248069d920df86747))
+
 ## [2.0.0](https://www.github.com/tjdavis3/testrepo/compare/v1.0.2...v2.0.0) (2021-03-27)
 
 
