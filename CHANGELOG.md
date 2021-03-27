@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://www.github.com/tjdavis3/testrepo/compare/v2.0.6...v2.1.0) (2021-03-27)
+
+
+### Features
+
+* Change to use separate tag builder ([26ec0d5](https://www.github.com/tjdavis3/testrepo/commit/26ec0d5b750c98e4adb071b8ceafae21992206cb))
+
+
+### Bug Fixes
+
+* Change to only run on tag but build on all ([e0f5753](https://www.github.com/tjdavis3/testrepo/commit/e0f575369786ba98af44266ceb654630a926d5f3))
+
 ### [2.0.6](https://www.github.com/tjdavis3/testrepo/compare/v2.0.5...v2.0.6) (2021-03-27)
 
 
