@@ -23,7 +23,9 @@
           if: ${{ steps.release.outputs.release_created }}
 
         - name: echo output
-          run: echo "${{ steps.release.outputs.version }}"
+          run: | 
+            echo "${{ steps.release.outputs.*.value }}"
+            ${{ steps.release.outputs.* }}
         - name: Get dependencies
           run: |
             go get -v -t -d ./...
