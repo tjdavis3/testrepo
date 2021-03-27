@@ -24,7 +24,8 @@
 
         - name: Determine version
           run: | 
-            export VERSION=`cat version.txt`
+            VERSION=`cat version.txt`
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
           if: ${{ steps.release.outputs.release_created }}
 
  #       - name: Get dependencies
