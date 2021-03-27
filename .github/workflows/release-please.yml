@@ -24,9 +24,7 @@
 
         - name: echo output
           run: | 
-            echo "${{ steps.release.outputs.*.value }}"
-            echo "${{ steps.release.outputs.tag_name.value }}"
-            echo "${{ steps.release.outputs.version.value }}"
+            cat version.txt
         - name: Get dependencies
           run: |
             go get -v -t -d ./...
