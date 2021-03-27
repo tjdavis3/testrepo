@@ -37,7 +37,7 @@
  #         if: ${{ steps.release.outputs.release_created }}
 
         - name: Build
-          run: go build -ldflags '-X "main.version=$VERSION"' -v -o testrepo  ./...
+          run: go build -ldflags '-X main.version=$VERSION' -v -o testrepo  ./...
           if: ${{ steps.release.outputs.release_created }}
 
         - name: Run
