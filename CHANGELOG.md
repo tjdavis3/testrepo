@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.6](https://www.github.com/tjdavis3/testrepo/compare/v2.0.5...v2.0.6) (2021-03-27)
+
+
+### Bug Fixes
+
+* Set version in github_env ([2b0da0f](https://www.github.com/tjdavis3/testrepo/commit/2b0da0f410dcdc4c5e4e983d627e9bd521ec9b8b))
+
 ### [2.0.5](https://www.github.com/tjdavis3/testrepo/compare/v2.0.4...v2.0.5) (2021-03-27)
 
 
