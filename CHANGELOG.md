@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.1.4](https://www.github.com/tjdavis3/testrepo/compare/v2.1.3...v2.1.4) (2021-03-28)
+
+
+### Bug Fixes
+
+* Add the if to the job ([b0e65aa](https://www.github.com/tjdavis3/testrepo/commit/b0e65aa2114233f2417ad226b4807d4ac3656f6c))
+* Test multi-job build ([6ca4ef3](https://www.github.com/tjdavis3/testrepo/commit/6ca4ef37fe6f0203ee4987ab70e7a3660c1c99a9))
+
 ### [2.1.3](https://www.github.com/tjdavis3/testrepo/compare/v2.1.2...v2.1.3) (2021-03-28)
 
 
