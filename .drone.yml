@@ -1,0 +1,12 @@
+---
+kind: pipeline
+type: docker
+name: test
+steps:
+  - name: test
+    image: golang:1.13.7-buster
+    commands:
+      - go test -race -v ./...
+trigger:
+  event:
+    - tag
