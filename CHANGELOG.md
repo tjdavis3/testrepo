@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://www.github.com/tjdavis3/testrepo/compare/v2.1.8...v2.2.0) (2021-03-28)
+
+
+### Features
+
+* Show version "built" ([6d62857](https://www.github.com/tjdavis3/testrepo/commit/6d628573d889af575764f26440c0d428acd92ddc))
+
 ### [2.1.8](https://www.github.com/tjdavis3/testrepo/compare/v2.1.7...v2.1.8) (2021-03-28)
 
 
