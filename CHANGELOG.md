@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.1.7](https://www.github.com/tjdavis3/testrepo/compare/v2.1.6...v2.1.7) (2021-03-28)
+
+
+### Bug Fixes
+
+* Correct the typo.  It shoudl work now ([e45b5b9](https://www.github.com/tjdavis3/testrepo/commit/e45b5b9af9703e7ef6e068e5df8460a7db651a57))
+
 ### [2.1.6](https://www.github.com/tjdavis3/testrepo/compare/v2.1.5...v2.1.6) (2021-03-28)
 
 
