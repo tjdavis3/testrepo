@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.1.8](https://www.github.com/tjdavis3/testrepo/compare/v2.1.7...v2.1.8) (2021-03-28)
+
+
+### Bug Fixes
+
+* Test triggering Drone from action ([56795d6](https://www.github.com/tjdavis3/testrepo/commit/56795d63c549c58d7c21a98c62240710d9b5935e))
+
 ### [2.1.7](https://www.github.com/tjdavis3/testrepo/compare/v2.1.6...v2.1.7) (2021-03-28)
 
 
