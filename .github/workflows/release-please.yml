@@ -46,11 +46,11 @@ jobs:
       - name: Build
         run: go build -ldflags '-X main.version='$VERSION -v -o screenshot  ./...
 
-      - name: Deploy with Ansible
-        uses: arillso/action.playbook@master
-        with:
-          playbook: .ansible/deploy.yml
-          inventory: .ansible/inventory/hosts
-          ssh_common_args: "-o StrictHostKeyChecking=no"
-          user: root
-          private_key: "${{ secrets.SSH_KEY }}"
+      #- name: Deploy with Ansible
+      #  uses: arillso/action.playbook@master
+      #  with:
+      #    playbook: .ansible/deploy.yml
+      #    inventory: .ansible/inventory/hosts
+      #    ssh_common_args: "-o StrictHostKeyChecking=no"
+      #    user: root
+      #    private_key: "${{ secrets.SSH_KEY }}"

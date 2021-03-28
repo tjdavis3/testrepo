@@ -6,7 +6,7 @@ steps:
   - name: test
     image: golang:1.13.7-buster
     commands:
-      - go test -race -v ./...
+      - cat version.txt
 trigger:
   event:
     - tag
