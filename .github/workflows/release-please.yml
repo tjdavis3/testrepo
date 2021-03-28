@@ -17,26 +17,23 @@ jobs:
           package-name: repobot
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
-        
+
   build-deploy: 
     runs-on: ubuntu-latest
     needs: release
-    if: ${{ needs.release.otuputs.release_created }}
+    if: ${{ needs.release.outputs.release_created }}
     steps:
       - uses: actions/checkout@v2
-        if: ${{ needs.release.outputs.release_created }}
       - name: Set up Go 1.x
         uses: actions/setup-go@v2
         with:
           go-version: ^1.15
         id: go
-        if: ${{ needs.release.outputs.release_created }}
 
       - name: Determine version
         run: |
           VERSION=`cat version.txt`
           echo "VERSION=$VERSION" >> $GITHUB_ENV
-        if: ${{ needs.release.outputs.release_created }}
 
       - name: Get dependencies
         run: |
@@ -45,14 +42,11 @@ jobs:
             curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
             dep ensure
           fi
-        if: ${{ needs.release.outputs.release_created }}
 
       - name: Build
         run: go build -ldflags '-X main.version='$VERSION -v -o screenshot  ./...
-        if: ${{ needs.release.outputs.release_created }}
 
       - name: Deploy with Ansible
-        if: ${{ needs.release.outputs.release_created }}
         uses: arillso/action.playbook@master
         with:
           playbook: .ansible/deploy.yml
