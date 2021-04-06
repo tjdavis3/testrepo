@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://www.github.com/tjdavis3/testrepo/compare/v2.3.0...v2.4.0) (2021-04-06)
+
+
+### Features
+
+* **backend:** Add Readme ([945af39](https://www.github.com/tjdavis3/testrepo/commit/945af39d198be8125089b56fccd6af1171ebdb62))
+
 ## [2.2.0](https://www.github.com/tjdavis3/testrepo/compare/v2.1.8...v2.2.0) (2021-03-28)
 
 
