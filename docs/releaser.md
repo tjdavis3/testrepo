@@ -7,3 +7,5 @@ It didn't work editing directly in master.  Perhaps because it wasn't a push?  L
 This will test merging a PR
 
 adding a fix
+
+test multi-release
