@@ -16,7 +16,7 @@ jobs:
           release-type: node
           path: frontend
           package-name: frontend
-          monorepo-tags: true
+          monorepo-tags: false
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
         
@@ -32,7 +32,7 @@ jobs:
           release-type: simple
           path: backend
           package-name: backend
-          monorepo-tags: true
+          monorepo-tags: false
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
 
