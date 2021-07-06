@@ -30,7 +30,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: go
-          path: backend
           package-name: backend
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
