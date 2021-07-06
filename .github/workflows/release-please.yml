@@ -32,7 +32,6 @@ jobs:
           release-type: go
           path: backend
           package-name: backend
-          monorepo-tags: false
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
 
