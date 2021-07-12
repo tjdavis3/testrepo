@@ -1,5 +1,10 @@
 # Changelog
 
+### [3.0.0](https://www.github.com/tjdavis3/testrepo/compare/v2.3.0...v2.3.1) (2021-06-01)
+
+* Will this fix it?
+
+
 ### [2.3.0](https://www.github.com/tjdavis3/testrepo/compare/v2.1.8...v2.3.0) (2021-06-01)
 
 * fix it
