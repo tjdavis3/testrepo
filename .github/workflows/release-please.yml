@@ -16,7 +16,7 @@ jobs:
           release-type: simple
           monorepo-tags: true
           package-name: backend
-          changelog-path: docs/CHANGELOG.md
+          changelog-path: docs/
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
 
