@@ -11,4 +11,4 @@ CREATE or ALTER PROCEDURE [dbo].[AddComment]
 AS
 
 INSERT INTO Comments (SID, CommentText, CommentDate, AuthorID)
-	VALUES (@sid, @comment, GetDate(), @userid)
+	VALUES (@sid, 'SP Added: ' + @comment, GetDate(), @userid)
