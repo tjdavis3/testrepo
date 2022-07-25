@@ -1,0 +1,10 @@
+{
+  "ciconfig": {
+    "configs": [
+      { 
+        "name": "override",
+        "data": "pipeline:\n  test:\n    image: alpine\n    commands:\n      - uname -a\n      - echo \"success\"\n"
+      }
+    ]
+  }
+}
