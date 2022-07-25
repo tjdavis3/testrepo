@@ -1,10 +1,11 @@
 {
+  "Config": {
+    "name": "override",
+    "data": "pipeline:\n  test:\n    image: alpine\n    commands:\n      - uname -a\n      - echo \"success\"\n"
+  },
   "Ciconfig": {
-    "configs": [
-      { 
-        "name": "override",
-        "data": "pipeline:\n  test:\n    image: alpine\n    commands:\n      - uname -a\n      - echo \"success\"\n"
-      }
-    ]
+    "configs": {
+      "hasMany": Config
+    }
   }
 }
