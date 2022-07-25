@@ -1,12 +1,12 @@
 {
   "Config": {
     "name": {
-      "string" [
+      "string": [
         "override"
       ]
   },
     "data": {
-      "string" [
+      "string": [
         "pipeline:\n  test:\n    image: alpine\n    commands:\n      - uname -a\n      - echo \"success\"\n"
       ]
     }
