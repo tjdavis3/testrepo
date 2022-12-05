@@ -16,6 +16,7 @@ jobs:
           release-type: go
           extra-files: |
             deploy/docker-compose.prod.yml
+            README.md
           package-name: testrepo
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
