@@ -6,6 +6,8 @@ author: TJD
 
 # testrepo
 
+Version: 2.4.0 <!-- release-please-version -->
+
 This is a test for adding release notes automatically.  Additional notes to see if a previous release is needed.
 testing release drafter
 
