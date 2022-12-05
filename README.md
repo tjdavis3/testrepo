@@ -8,7 +8,7 @@ author: TJD
 
 Version: 2.4.0 <!-- x-release-please-version -->
 
-does it work?
+release-please is working to update extra-files now
 
 This is a test for adding release notes automatically.  Additional notes to see if a previous release is needed.
 testing release drafter
