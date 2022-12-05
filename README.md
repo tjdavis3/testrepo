@@ -6,7 +6,7 @@ author: TJD
 
 # testrepo
 
-Version: 2.4.0 <!-- x-release-please-version -->
+Version: 2.5.3 <!-- x-release-please-version -->
 
 release-please is working to update extra-files now
 
