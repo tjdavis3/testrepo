@@ -1,0 +1,33 @@
+version: '3.7'
+
+services:
+  sonus-provisioning:
+    image: ghcr.io/ringsq/sonus-provisioning:${VERSION:-v0.0.0}  # x-release-please-version
+    networks:
+      - traefik-public
+    environment:
+      - JWKS_RENEW_MINUTES=30
+      - CERBOS_URL=rbac-rpc.ringsq.io:443
+      - USESBC=true
+      - RBAC=true
+      - AUDIT_TRAIL_URL=https://audit.ringsq.io
+      - NATSURL=tls://nats.ringsq.io:4222
+      - SENTRY_ENVIRONMENT=production
+    labels:
+      - "com.docker.stack.namespace=sonus-provisioning"
+    deploy:
+      labels:
+        com.docker.stack.namespace: 'sonus-provisioning'
+        traefik.enable: 'true'
+        traefik.http.routers.sonusprov-https.entrypoints: 'https'
+        traefik.http.routers.sonusprov-https.rule: 'Host(`sonusprov.ringsq.io`)'
+        traefik.http.routers.sonusprov-https.tls: 'true'
+        traefik.http.routers.sonusprov.tls.certresolver: 'letsencrypt'
+        traefik.http.routers.sonusprov.entrypoints: 'http'
+        traefik.http.routers.sonusprov.rule: 'Host(`sonusprov.ringsq.io`)'
+        traefik.http.services.sonusprov.loadbalancer.server.port: 8080
+
+networks:
+  traefik-public:
+    name: traefik-public
+    external: true
