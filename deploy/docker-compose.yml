@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  sonus-provisioning:
+    image: ghcr.io/ringsq/sonus-provisioning:${VERSION:-latest}
+    networks:
+      - traefik-public
+    environment:
+      - PORT=8080
+      - USESBC=false
+      - RBAC=false
+      - NATSURL=tls://localhost:4222

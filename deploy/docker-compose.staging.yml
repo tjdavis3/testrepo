@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  sonus-provisioning:
+    image: ghcr.io/ringsq/sonus-provisioning:${VERSION:-latest}
+    environment:
+      - JWKS_RENEW_MINUTES=30
+      - SENTRY_ENVIRONMENT=staging
+    labels:
+      - "com.docker.stack.namespace=sonus-provisioning"
+    deploy:
+      labels:
+        com.docker.stack.namespace: 'sonus-provisioning'
+        traefik.enable: 'false'

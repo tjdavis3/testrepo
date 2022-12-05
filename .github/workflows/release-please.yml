@@ -17,6 +17,8 @@ jobs:
           monorepo-tags: true
           package-name: backend
           changelog-path: docs/
+          extra-files:
+            - deploy/docker-compose.prod.yml
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
 
