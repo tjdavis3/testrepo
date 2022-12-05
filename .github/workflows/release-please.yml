@@ -14,11 +14,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: go
-          monorepo-tags: true
-          package-name: backend
-          changelog-path: docs/
           extra-files: |
             deploy/docker-compose.prod.yml
+          package-name: testrepo
       - name: Show output
         run: echo ${{ steps.release.outputs.release_created }}
 
